@@ -3,7 +3,7 @@ package org.example;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertTrue;
-import static org.example.BinarySearchAndrii.search;
+import static org.example.BinarySearchAndrii.*;
 
 public class TestBinarySearchAndrii {
 
@@ -16,6 +16,6 @@ public class TestBinarySearchAndrii {
     @Test
     public void testCheckedSearch() {
         int[] a = { 1, 3, 4, 5, 8, 12, 15 };
-        assertTrue(search(a, 12) == 5);
+        assertTrue(checkedSearch(a, 12) == 5);
     }
 }
